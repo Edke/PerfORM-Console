@@ -1,17 +1,15 @@
 #!/usr/bin/php
 <?php
 
-define('APP_DIR', dirname(dirname(__FILE__)).'/app');
-define('LIBS_DIR', dirname(dirname(__FILE__)).'/libs');
+define('APP_DIR', dirname(dirname(__FILE__)));
+define('LIBS_DIR', realpath(APP_DIR.'/../libs'));
 
 require_once LIBS_DIR .'/Nette/loader.php';
 
 $robot = new RobotLoader();
 $robot->addDirectory(APP_DIR);
 $robot->addDirectory(LIBS_DIR);
-
 $robot->autoRebuild = true;
-$robot->ignoreDirs= '.*, *.old, *.bak, *.tmp, temp, fshl_cache';
 $robot->register();
 
 Debug::enable();
