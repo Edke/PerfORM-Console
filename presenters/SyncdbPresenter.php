@@ -4,7 +4,7 @@
  *
  * @author kraken
  */
-class Console_SyncdbPresenter extends Console_BasePresenter
+class PerfORMConsole_SyncdbPresenter extends PerfORMConsole_BasePresenter
 {
     public function actionDefault()
     {

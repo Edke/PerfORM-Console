@@ -4,7 +4,7 @@
  *
  * @author kraken
  */
-class Console_SqlallPresenter extends Console_BasePresenter
+class PerfORMConsole_SqlallPresenter extends PerfORMConsole_BasePresenter
 {
 
     public function actionDefault()

@@ -4,7 +4,7 @@
  *
  * @author kraken
  */
-class Console_DefaultPresenter extends Console_BasePresenter
+class PerfORMConsole_DefaultPresenter extends PerfORMConsole_BasePresenter
 {
 }
 

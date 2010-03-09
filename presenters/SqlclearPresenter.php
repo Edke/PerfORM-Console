@@ -4,7 +4,7 @@
  *
  * @author kraken
  */
-class Console_SqlclearPresenter extends Console_BasePresenter
+class PerfORMConsole_SqlclearPresenter extends PerfORMConsole_BasePresenter
 {
 
     public function actionDefault()

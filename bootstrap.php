@@ -22,7 +22,7 @@ dibi::connect(Environment::getConfig('database'));
 $application = Environment::getApplication();
 $application->allowedMethods = NULL;
 $application->router[] = new PerfORMCliRouter(array(
-	'module' => 'Console',
+	'module' => 'PerfORMConsole',
 	'presenter' => 'Default',
 	'action' => 'default'
 	));

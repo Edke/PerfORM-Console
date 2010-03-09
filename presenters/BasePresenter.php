@@ -4,7 +4,7 @@
  *
  * @author kraken
  */
-class Console_BasePresenter extends Presenter
+class PerfORMConsole_BasePresenter extends Presenter
 {
 
     public function startup() {
