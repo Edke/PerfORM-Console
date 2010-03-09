@@ -1,6 +1,0 @@
-
-{if isset($index)}
--- Dropping index "{$index->name}"
-DROP INDEX {$index->name};
-{/if}
-
