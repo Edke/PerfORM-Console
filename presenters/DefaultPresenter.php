@@ -1,6 +1,6 @@
 <?php
 /**
- * ActionPresenter
+ * DefaultPresenter
  *
  * @author kraken
  */

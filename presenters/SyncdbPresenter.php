@@ -1,6 +1,6 @@
 <?php
 /**
- * ActionPresenter
+ * Syncdb action
  *
  * @author kraken
  */

@@ -1,6 +1,6 @@
 <?php
 /**
- * ActionPresenter
+ * BasePresenter
  *
  * @author kraken
  */
@@ -13,8 +13,6 @@ class PerfORMConsole_BasePresenter extends Presenter
         $this->template->registerHelper('fshl_highlighter', array($this, 'fshl_highlighter'));
 	$this->template->registerHelper('ansi_console_colors', array($this, 'ansi_console_colors'));
 	$this->template->registerHelper('wordwrap', 'wordwrap');
-
-	//$this->template->local= Environment::getHttpRequest()->getRemoteAddress() == '127.0.0.1' ? true : false;
     }
 
 

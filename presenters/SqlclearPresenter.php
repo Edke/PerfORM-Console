@@ -1,6 +1,6 @@
 <?php
 /**
- * ActionPresenter
+ * Sqlclear action
  *
  * @author kraken
  */
