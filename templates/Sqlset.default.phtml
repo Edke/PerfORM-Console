@@ -1,0 +1,10 @@
+{extends $layout}
+{block #content}
+
+{if $confirm}
+{block|ansi_console_colors}Modelset's info %9%rwas inserted%n into storage.{/block}
+{else}
+{block|ansi_console_colors}Insert modelset's info to storage, please run tool with %9--confirm%n option to execute{/block}
+{/if}
+
+{/block}
