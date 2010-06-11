@@ -7,6 +7,7 @@ define('LIBS_DIR', realpath(APP_DIR.'/../libs'));
 require_once LIBS_DIR .'/Nette/loader.php';
 
 Debug::enable();
+Debug::$showBar= false;
 
 Environment::loadConfig();
 
